@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, url
 
-from api.views import SchoolListView, make_scrapy, DependencyListView, RegistryListView, RegistryDetailView
+from api.views import SchoolListView, DependencyListView, RegistryListView, RegistryDetailView
 
 urlpatterns = patterns('',
 
