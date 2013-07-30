@@ -10,7 +10,7 @@ from api.tasks import ScrapyTask
 
 def make_scrapy(request):
     task = ScrapyTask()
-    task.delay()
+    task()
     return HttpResponse('Scrapy running!')
 
 
