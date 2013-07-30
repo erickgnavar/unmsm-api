@@ -7,7 +7,7 @@ celery==3.0.21
 django-celery==3.0.21
 gunicorn==17.5
 kombu==2.5.12
-libxml2-python==2.9.1
+#libxml2-python==2.9.1
 python-dateutil==2.1
 pytz==2013b
 six==1.3.0
