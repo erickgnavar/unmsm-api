@@ -8,6 +8,5 @@ urlpatterns = patterns('',
     url(r'^dependencies/$', DependencyListView.as_view(), name='api_dependency_list'),
     url(r'^registries/$', RegistryListView.as_view(), name='api_registry_list'),
     url(r'^registry/(?P<pk>\d+)/$', RegistryDetailView.as_view(), name='api_registry_detail'),
-    url(r'^scrapy/$', make_scrapy, name='api_make_scrapy')
 
 )

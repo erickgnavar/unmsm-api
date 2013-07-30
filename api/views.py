@@ -5,13 +5,6 @@ from django.http import HttpResponse
 from django.shortcuts import get_object_or_404
 
 from api.models import Entity, Registry
-from api.tasks import ScrapyTask
-
-
-def make_scrapy(request):
-    task = ScrapyTask()
-    task()
-    return HttpResponse('Scrapy running!')
 
 
 class JsonViewMixin(object):
