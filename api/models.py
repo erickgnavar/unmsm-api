@@ -9,11 +9,11 @@ class Entity(models.Model):
 
     name = models.CharField(
         _(u'Name'),
-        max_length=30
+        max_length=50
     )
     code = models.CharField(
         _(u'Code'),
-        max_length=5
+        max_length=10
     )
     type = models.IntegerField(
         _(u'Type')
